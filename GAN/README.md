@@ -13,5 +13,9 @@ Discriminator's role is to identify real and fake images correctly. Hence, it ha
 
 ### Formally:
 
-Generator and Discriminator are deep neural networks that are trained in as a single system, working on the following loss function:
+Generator and Discriminator are deep neural networks that are trained as a single system, working on the following loss function:
 [image](https://github.com/user-attachments/assets/b272c3de-a388-4654-a314-cd81a2cd3190)
+
+
+
+After training the Generator is used to generate images similar to those in the respective dataset.
