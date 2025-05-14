@@ -18,9 +18,14 @@ Generator and Discriminator are deep neural networks that are trained as a singl
 minG maxD V(D,G)    =    Ex∼P𝑑𝑎𝑡𝑎(x) [logD(x)]  +  E𝑧∼P𝑧(z) [log(1−D(G(z)))]
 
 G(z): Generator generates a fake image from noise vector z
+<br/>
 D(x): Discriminator outputs a probability that input image x is real.
+<br/>
 P𝑑𝑎𝑡𝑎(𝑥): Distribution of real images. 
+<br/>
 P𝑧(𝑧): Prior distribution of noise (usually standard normal N(0,1)).
+<br/>
+<br/>
 
 
 
