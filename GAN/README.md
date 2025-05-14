@@ -32,4 +32,4 @@ P𝑧(𝑧): Prior distribution of noise (usually standard normal N(0,1)).
 
 
 
-After training the Generator is used to generate images similar to those in the respective dataset.
+After training, the Generator is used to generate images similar to those in the respective dataset.
