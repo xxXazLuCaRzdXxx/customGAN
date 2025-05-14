@@ -18,7 +18,7 @@ Discriminator's role is to identify real and fake images correctly. Hence, it ha
 
 Generator and Discriminator are deep neural networks that are trained as a single system, working on the following loss function:
 
-minG maxD V(D,G)    =    Ex∼P𝑑𝑎𝑡𝑎(x) [logD(x)]  +  E𝑧∼P𝑧(z) [log(1−D(G(z)))]
+minG maxD V(D,G)    =    Ex∼P𝑑𝑎𝑡𝑎(x) [logD(x)]  +  Ez∼Pz(z) [log(1−D(G(z)))]
 
 G(z): Generator generates a fake image from noise vector z
 <br/>
