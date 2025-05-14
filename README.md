@@ -1,6 +1,6 @@
 ## GAN
 
-It stands for Generative Adversarial Networks. In my case, I have used it to generate images similar to those available in the MNIST digits dataset.
+It stands for Generative Adversarial Networks. In my case, I have used it to generate images similar to those available in the MNIST digits dataset and explored the interpolation between two digits in latent space.
 
 ## How it works under the hood?
 
