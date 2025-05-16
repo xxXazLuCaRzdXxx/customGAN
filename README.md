@@ -4,8 +4,6 @@ It stands for Generative Adversarial Networks. In my case, I have used it to gen
 
 ## How it works under the hood?
 
-### Theoretically:
-
 A GAN essentially works by playing a minimax game during its training.
 <br/>
 It has 2 components, Generator and Discriminator. Think of Generator as a thief, trying to generate fake images and Discriminator as a detective, trying to identify real and fakes.
@@ -14,7 +12,7 @@ Generator's role is to fool the discriminator, hence generating images so real t
 <br/>
 Discriminator's role is to identify real and fake images correctly. Hence, it has to identify the images sampled as a noise from a probabilistic distribution given by Generator as fakes and the ones sampled from the original dataset as real.
 
-### Formally:
+### Loss Function:
 
 Generator and Discriminator are deep neural networks that are trained as a single system, working on the following loss function:
 
